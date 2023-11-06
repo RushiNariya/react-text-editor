@@ -1,0 +1,72 @@
+Arguments: 
+  /home/sft/.nvm/versions/node/v15.10.0/bin/node /home/sft/.nvm/versions/node/v15.10.0/bin/yarn install
+
+PATH: 
+  /home/sft/.nvm/versions/node/v15.10.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  15.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@testing-library%2fjest-dom: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/home/sft/.nvm/versions/node/v15.10.0/lib/node_modules/yarn/lib/cli.js:141510:19)
+      at Object.onceWrapper (node:events:484:28)
+      at ClientRequest.emit (node:events:378:20)
+      at TLSSocket.emitRequestTimeout (node:_http_client:780:9)
+      at Object.onceWrapper (node:events:484:28)
+      at TLSSocket.emit (node:events:390:22)
+      at TLSSocket.Socket._onTimeout (node:net:480:8)
+      at listOnTimeout (node:internal/timers:557:17)
+      at processTimers (node:internal/timers:500:7)
+
+npm manifest: 
+  {
+    "name": "react-editor",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.5.0",
+      "@testing-library/user-event": "^7.2.1",
+      "draft-js": "^0.11.7",
+      "draftjs-to-html": "^0.9.1",
+      "html-to-draftjs": "^1.5.0",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "react-draft-wysiwyg": "^1.14.5",
+      "react-scripts": "3.4.3"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
